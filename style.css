@@ -29,7 +29,7 @@ section.principal {
     align-items: center;
     color: white;
     margin: auto;
-    width: 60vw;
+    width: 50vw;
 }
 
 .principal div.wrapper {
@@ -122,9 +122,9 @@ section.principal {
 section.builds {
     color: white;
     background-color: #1c104d;
-    max-width: 60vw;
+    max-width: 50vw;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border-radius: 10px;
     align-items: center;
     padding: 15px;
@@ -147,17 +147,111 @@ section.builds button {
 section.runas {
     color: white;
     background-color: #1c104d;
+    max-width: 50vw;
+    max-height: 50vh;
     margin: auto;
+    margin-bottom: 10px;
     border-radius: 10px;
     align-items: center;
-    padding: 15px;
-    width: 60vw;
+    padding: 5px;
 }
 
-section.runas img {
+section.runas .wrapper {
+    max-width: 450px;
+    margin-left: 40px;
+    display: flex;
+}
+
+section.runas .principal img:not(img.active, img.active2) {
     filter: grayscale(100%) opacity(50%);
 }
 
+
 section.runas img.active {
+    border: 2px solid red;
+    border-radius: 50px;
+}
+
+section.runas .principal {
+    min-width: 215px;
+    max-width: 215px;
+    margin-right: 30px;
+    border-right: 2px solid rgba(255, 255, 255, 0.479);
+}
+
+section.runas .first {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+
+section.runas .first img {
+    max-width: 55px;
+    margin-left: -10px;
+}
+
+section.runas .sec {
+    height: 50px;
+    margin-left: 0px;
+}
+
+section.runas .sec img {
+    max-width: 36px;
+    margin-bottom: 10px;
+    margin-right: 32px;
+}
+
+section.runas .last img {
+    max-width: 36px;
+    margin-right: 8px;
+}
+
+section.runas .domination {
+    text-align: center;
+    margin-right: 20px;
     filter: grayscale(0%) opacity(100%);
+}
+
+/* Secundarias */
+section.runas .secondary {
+    width: 203px;
+}
+
+section.runas .sorcery {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.runas .rune-container img {
+    max-width: 36px;
+    margin-right: 25px;
+}
+
+section.runas .rune-container img:not(.ativo, .ativo2) {
+    filter: grayscale(100%) opacity(50%);
+
+}
+
+section.runas .mini-icons {
+    margin-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.479);
+}
+
+section.runas .mini-icons .mini img {
+    width: 26px;
+    margin-right: 38px;
+}
+
+section.runas .mini-icons .mini {
+    margin-top: 4px;
+}
+
+.ativo {
+    border: 2px solid #007bff;
+    border-radius: 50px;
+}
+
+
+section.runas .mini-icons .mini img:not(.ativo){
+    filter: grayscale(100%) opacity(60%);
 }
