@@ -21,6 +21,10 @@ body {
     background: #150e36;
 }
 
+h1 {
+    font-weight: 300;
+}
+
 /* PRINCIPAL */
 
 section.principal {
@@ -128,6 +132,7 @@ section.builds {
     border-radius: 10px;
     align-items: center;
     padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 section.builds button {
@@ -153,11 +158,12 @@ section.runas {
     margin-bottom: 10px;
     border-radius: 10px;
     align-items: center;
-    padding: 5px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 section.runas .wrapper {
-    max-width: 450px;
+    padding-top: 20px;
     margin-left: 40px;
     display: flex;
 }
@@ -214,7 +220,7 @@ section.runas .domination {
 
 /* Secundarias */
 section.runas .secondary {
-    width: 203px;
+    min-width: 203px;
 }
 
 section.runas .sorcery {
@@ -254,4 +260,29 @@ section.runas .mini-icons .mini {
 
 section.runas .mini-icons .mini img:not(.ativo){
     filter: grayscale(100%) opacity(60%);
+}
+
+
+/* Feitiços */
+
+section.runas .feitico {
+    padding-left: 30px;
+}
+
+section.runas .feitico .spell {
+    width: 18rem;
+    height: fit-content;
+    background-color: #150e36;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+
+section.runas .feitico .spell img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+    width: 45px;
 }
