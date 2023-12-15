@@ -37,7 +37,8 @@ section.principal {
 }
 
 .principal div.wrapper {
-    padding: 10px;
+    padding: 4px;
+    padding-bottom: 10px;
     padding-top: 40px;
 }
 
